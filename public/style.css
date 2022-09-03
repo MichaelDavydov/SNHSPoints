@@ -1,0 +1,59 @@
+.body{
+background-color: #262626;
+  
+}
+
+.main {
+  text-align: center;
+  font-size: 25px;
+  color: lightgreen;
+  font-family: 'Albert Sans', sans-serif;
+}
+
+.titleContainer{
+  text-align: center;
+}
+
+.imgConatiner{
+  display: inline-block;
+}
+
+.title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 45px; 
+  text-align: center;
+  color:white;
+  display: inline-block;
+}
+
+
+#searchBar {
+    width: 35%;
+    height: 32px;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+#searchButton{
+    background-color:#3e8e41;
+    font-family: 'Albert Sans', sans-serif;
+    font-width: bolder;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    color: white;
+    padding: 8px 20px;
+    box-shadow: 0 5px darkgrey; 
+}
+
+#searchButton:hover {background-color: #0c6a00}
+
+#searchButton:active {
+  background-color: #0c6a00;
+  box-shadow: 0 0px darkgrey;
+  transform: translateY(4px);
+
+}
