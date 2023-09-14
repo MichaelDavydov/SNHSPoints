@@ -13,17 +13,24 @@
 </head>
 
 <body class="body">
+
   <div class = "titleContainer">
     <img src="SNHSLogo.png" style="width:42px;" class="flask"/>
     <h1 class="title" id ="title">Science National Honors Society</h1>
   </div>
+
   <main class="main">
+
     <input type="text" name="searchBar" id="searchBar" placeholder="Put your school ID here to see your points..."/>
-    <button id="searchButton" onclick = "search()"> search </button>
+    <button id="searchButton" onclick = "search(), listService()"> search </button>
+    <div id="link"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdABriIu8wmRk-XQhW2_-vlcuvkWvLm_24C6aWVuusdK6Tj5A/viewform?usp=sf_link" target="_blank">Link For The Points Submission Google From</a> </div>
     <p id="p" class="field"></p>
     <span class="container"><p id="status" class="status"></p><span>
+    <ul id="check" class="check"></ul>
   </main>
+
 </body>
+
 <script src="script.js"></script>
 
 </html>
